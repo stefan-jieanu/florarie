@@ -8,6 +8,36 @@
   </head>
   <body>
     <div id="app">
+      <style>
+        .panel {
+          position: absolute;
+          transform: translateY(-50%);
+          padding: 1rem;
+          margin-right: 1rem;
+          background-color: white;
+          border-radius: 25px;
+          top: 50%;
+          left: 2%;
+        }
+        .button-list {
+          padding: 0.5rem;
+          background: gray;
+          margin: 0.1rem;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+      </style>
+      <div class="panel">
+        <ul>
+          <li class="button-list"><button id="add-btn-1">Add 1</button></li>
+          <li class="button-list"><button id="add-btn-2">Add 2</button></li>
+          <li class="button-list"><button id="add-btn-3">Add 3</button></li>
+          <li class="button-list"><button id="add-btn-4">Add 4</button></li>
+          <li class="button-list"><button id="add-btn-5">Add 5</button></li>
+        </ul>
+      </div>
       <script type="module" src="/src/main.ts"></script>
     </div>
   </body>
